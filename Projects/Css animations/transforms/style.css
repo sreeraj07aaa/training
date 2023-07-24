@@ -1,0 +1,35 @@
+body {
+  background: lightgreen;
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* img {
+  transform: translate(-250px, 200px);
+} */
+
+/* img {
+  transform: scale(3, 0.5);
+} */
+
+.circle {
+  width: 108px;
+  padding: 50px 0;
+  line-height: 0;
+  margin: 68px auto;
+  background: yellow;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 1s, transform 1s 1s ease-in;
+}
+
+.circle:hover {
+  background: rgb(26, 190, 177);
+  transform: rotate(360deg);
+}

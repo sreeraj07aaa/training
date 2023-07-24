@@ -1,0 +1,1648 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.button-1 {
+  background: rgb(15, 116, 211);
+  padding: 20px;
+  display: inline-block;
+  height: 0px;
+  font-size: 20px 10px;
+}
+
+button.button-1 {
+  position: relative;
+  top: -780px;
+  width: 156px;
+  height: 56px;
+}
+
+.button-2 {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  display: inline-block;
+  height: 0px;
+  font-size: 20px 10px;
+  border-color: black;
+}
+
+button.button-2 {
+  position: relative;
+  top: -782px;
+  left: 30px;
+  width: 216px;
+  height: 57px;
+}
+
+nav {
+  position: relative;
+  top: -61px;
+  left: 60px;
+  width: 100%;
+  z-index: 1;
+}
+
+nav ul.lists {
+  position: relative;
+  top: -52px;
+  left: 66px;
+}
+
+nav ul:after {
+  content: "";
+  display: inline-block;
+  clear: both;
+}
+
+nav li {
+  position: relative;
+  list-style-type: none;
+  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  float: left;
+  right: 20px;
+  font-size: 15px;
+  top: 17px;
+}
+
+.windows img {
+  position: relative;
+  bottom: -44px;
+  width: 74px;
+}
+
+ul.lists-2 {
+  position: relative;
+  left: 970px;
+  bottom: 148px;
+}
+
+button.free-1 {
+  position: relative;
+  bottom: 169px;
+  left: 1114px;
+  background: greenyellow;
+  padding: 5px;
+}
+
+ul.lists-3 li {
+  position: relative;
+  top: -165px;
+  left: 1267px;
+}
+
+form.placeholder input {
+  position: relative;
+  width: 141px;
+  height: 41px;
+  border-color: black;
+  border-radius: 5px;
+  left: 793px;
+  bottom: 82px;
+}
+
+div#banner img {
+  position: relative;
+  left: -1559px;
+  height: 795px;
+  width: 2000px;
+  bottom: 300px;
+}
+
+section.azure-1 h4 {
+  position: relative;
+  top: -792px;
+  font-size: 24px;
+  left: 30px;
+}
+
+div.banner p {
+  position: relative;
+  font-size: 24px;
+  bottom: 838px;
+}
+
+div#banner form {
+  position: absolute;
+  margin-left: 20px;
+}
+
+.button-1 {
+  position: relative;
+  top: 300px;
+  margin-left: 30px;
+  margin-right: 8px;
+}
+.button-2 {
+  position: relative;
+  top: 300px;
+}
+
+div.banner h1 {
+  position: relative;
+  top: -855px;
+  font-size: 54px;
+  left: 15px;
+}
+
+h2.heading {
+  position: relative;
+  bottom: 578px;
+  left: 103px;
+  font-size: 27px;
+}
+
+section.MARK img {
+  position: relative;
+  width: 460px;
+  bottom: 533px;
+}
+
+section.MARK p {
+  position: relative;
+  bottom: 519px;
+  width: 442px;
+  font-size: 23px;
+  left: 23px;
+}
+
+section.MARK h2 {
+  position: relative;
+  bottom: 519px;
+  left: 24px;
+  font-size: 27px;
+  text-decoration: underline;
+}
+
+section.second p {
+  position: relative;
+  width: 443px;
+  font-size: 23px;
+  bottom: 960px;
+  left: 527px;
+}
+
+section.second img {
+  position: relative;
+  width: 460px;
+  left: 505px;
+  bottom: 994px;
+}
+section.second h2 {
+  position: relative;
+  font-size: 27px;
+  bottom: 980px;
+  left: 555px;
+  text-decoration: underline;
+}
+
+section.third img {
+  position: relative;
+  right: 115px;
+  bottom: 1409px;
+  width: 460px;
+  left: 1015px;
+}
+
+section.third h2 {
+  position: relative;
+  bottom: 1396px;
+  left: 1120px;
+  font-size: 27px;
+  text-decoration: underline;
+}
+
+section.third p {
+  position: relative;
+  font-size: 23px;
+  width: 408px;
+  bottom: 1377px;
+  left: 1054px;
+}
+
+div h5 {
+  position: relative;
+  left: 471px;
+  bottom: 1305px;
+  font-size: 20px;
+  font-family: " Haettenschweiler ";
+}
+
+button.overview {
+  position: relative;
+  top: -1378px;
+  height: 56px;
+  left: 676px;
+  width: 179px;
+  color: revert;
+  background-color: springgreen;
+}
+
+section.h2 h2 {
+  position: relative;
+  bottom: 1275px;
+  left: 330px;
+  font-size: 31px;
+}
+
+section.open-1 img {
+  position: relative;
+  left: 290px;
+  bottom: -1804px;
+  width: 95px;
+}
+section.open-1 p {
+  position: relative;
+  top: 1888px;
+  width: 315px;
+  left: 193px;
+  font-size: 20px;
+}
+
+div.box-1 {
+  position: relative;
+  top: -3440px;
+  left: 267px;
+  width: 300px;
+}
+
+section.open-1 {
+  width: 100px;
+}
+
+section.open-1 h3 {
+  width: 244px;
+  position: relative;
+  left: 220px;
+  text-decoration: underline;
+  color: turquoise;
+  top: 1855px;
+  font-size: 25px;
+}
+
+div.box-2 {
+  position: relative;
+  bottom: 1541px;
+  left: 89px;
+}
+section.open-2 img {
+  position: relative;
+  width: 71px;
+  bottom: 260px;
+  left: 866px;
+}
+section.open-2 p {
+  position: relative;
+  top: -265px;
+  width: 311px;
+  left: 765px;
+  font-size: 20px;
+}
+section.open-2 h3 {
+  width: 137px;
+  position: relative;
+  left: 838px;
+  bottom: 263px;
+  color: turquoise;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+div.box-3 {
+  position: relative;
+  bottom: 1558px;
+  left: 141px;
+}
+
+section.open-3 img {
+  position: relative;
+  width: 78px;
+  left: 1180px;
+  bottom: 473px;
+}
+
+section.open-3 p {
+  position: relative;
+  top: -476px;
+  width: 287px;
+  left: 1114px;
+  font-size: 20px;
+}
+
+section.open-3 h3 {
+  width: 245px;
+  position: relative;
+  left: 1132px;
+  bottom: 479px;
+  color: turquoise;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+section.sidebar li {
+  position: relative;
+  font-size: 19px;
+  margin: -3px;
+  bottom: 1125px;
+  left: -8px;
+  font-family: monospace;
+  list-style-type: none;
+  margin-bottom: 45px;
+}
+
+div.box-4 {
+  position: relative;
+  bottom: 1548px;
+  left: 31px;
+}
+
+section.open-4 img {
+  position: relative;
+  width: 73px;
+  left: 544px;
+  bottom: 412px;
+}
+
+section.open-4 h3 {
+  position: relative;
+  bottom: 414px;
+  left: 455px;
+  color: turquoise;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+section.open-4 p {
+  position: relative;
+  top: -412px;
+  width: 307px;
+  left: 451px;
+  font-size: 20px;
+}
+
+div.box-5 {
+  position: relative;
+  bottom: 1596px;
+}
+
+section.open-5 img {
+  position: relative;
+  width: 88px;
+  bottom: 623px;
+  left: 948px;
+}
+
+section.open-5 p {
+  position: relative;
+  width: 317px;
+  top: -626px;
+  left: 857px;
+  font-size: 20px;
+}
+
+section.open-5 h3 {
+  position: relative;
+  bottom: 613px;
+  left: 914px;
+  text-decoration: underline;
+  color: turquoise;
+  font-size: 25px;
+}
+
+div.box-6 {
+  position: relative;
+  bottom: 1634px;
+  left: 113px;
+}
+section.open-6 img {
+  position: relative;
+  width: 62px;
+  bottom: 815px;
+  left: 1213px;
+}
+
+section.open-6 p {
+  position: relative;
+  top: -816px;
+  left: 1145px;
+  width: 293px;
+  font-size: 20px;
+}
+
+section.open-6 h3 {
+  position: relative;
+  width: 220px;
+  bottom: 818px;
+  left: 1159px;
+  text-decoration: underline;
+  color: turquoise;
+  font-size: 25px;
+}
+
+h3#headline {
+  position: relative;
+  font-family: system-ui;
+  bottom: 2275px;
+  left: 555px;
+  font-size: 25px;
+}
+
+div.find-imgs {
+  position: relative;
+  bottom: 1300px;
+}
+
+section.img-1 img {
+  position: relative;
+  left: 247px;
+  width: 34px;
+  bottom: 931px;
+}
+
+section.img-2 img {
+  position: relative;
+  width: 267px;
+  left: 754px;
+  bottom: 1044px;
+}
+
+section.img-3 img {
+  position: relative;
+  bottom: 1136px;
+  left: 456px;
+}
+
+section.img-4 img {
+  position: relative;
+  bottom: 1217px;
+  left: 1097px;
+}
+
+section.img-5 img {
+  position: relative;
+  bottom: 1273px;
+  left: 1353px;
+}
+
+section.tools img {
+  position: relative;
+  height: 442px;
+  width: 551px;
+  bottom: 2411px;
+  left: 285px;
+}
+
+section.tools h2 {
+  position: relative;
+  width: 453px;
+  bottom: 2792px;
+  left: 892px;
+  font-size: 34px;
+  color: rgb(16, 19, 13);
+}
+
+button.explore {
+  position: relative;
+  width: 231px;
+  height: 44px;
+  top: -2775px;
+  left: 901px;
+  background: padding-box;
+  color: cornsilk;
+  background-color: cornflowerblue;
+}
+
+section.discover h3 {
+  position: relative;
+  bottom: 2440px;
+  left: 665px;
+  font-size: 21px;
+  font-family: monospace;
+}
+
+section.data-1 {
+  position: relative;
+  bottom: 1116px;
+  left: 69px;
+}
+
+section.data-1 img {
+  position: relative;
+  width: 330px;
+  bottom: 1200px;
+  left: 171px;
+}
+
+section.data-1 p {
+  position: relative;
+  width: 260px;
+  top: -1195px;
+  left: 201px;
+  font-size: 19px;
+}
+
+section.data-1 h4 {
+  position: relative;
+  bottom: 1191px;
+  left: 204px;
+  font-size: 15px;
+}
+
+section.data-1 a {
+  position: relative;
+  bottom: 1166px;
+  left: 220px;
+  color: deeppink;
+}
+
+section.data-2 {
+  position: relative;
+  bottom: 1239px;
+  left: 77px;
+}
+
+section.data-2 img {
+  position: relative;
+  bottom: 1408px;
+  left: 631px;
+  width: 330px;
+}
+
+section.data-2 h4 {
+  position: relative;
+  bottom: 1395px;
+  left: 684px;
+  font-size: 15px;
+}
+
+section.data-2 p {
+  position: relative;
+  width: 325px;
+  top: -1403px;
+  left: 652px;
+  font-size: 19px;
+}
+
+section.data-2 a {
+  position: relative;
+  bottom: 1396px;
+  left: 678px;
+  color: deeppink;
+}
+
+section.data-3 {
+  position: relative;
+  bottom: 1394px;
+  left: 64px;
+}
+
+section.data-3 img {
+  position: relative;
+  width: 330px;
+  bottom: 1605px;
+  left: 1101px;
+}
+
+section.data-3 h4 {
+  position: relative;
+  bottom: 1596px;
+  left: 1144px;
+}
+
+section.data-3 p {
+  position: relative;
+  width: 298px;
+  top: -1606px;
+  left: 1121px;
+  font-size: 19px;
+}
+
+section.data-3 a {
+  position: relative;
+  bottom: 1599px;
+  left: 1163px;
+  color: deeppink;
+}
+
+section.data-4 {
+  position: relative;
+  bottom: 1449px;
+  left: 72px;
+}
+
+section.data-4 img {
+  position: relative;
+  bottom: 1387px;
+  width: 330px;
+  left: 167px;
+}
+
+section.data-4 h4 {
+  position: relative;
+  bottom: 1378px;
+  left: 196px;
+}
+
+section.data-4 p {
+  position: relative;
+  width: 246px;
+  top: -1383px;
+  left: 195px;
+  font-size: 19px;
+}
+
+section.data-4 a {
+  position: relative;
+  bottom: 1372px;
+  left: 219px;
+  color: deeppink;
+}
+
+section.data-5 {
+  position: relative;
+  bottom: 1600px;
+  left: 71px;
+}
+
+section.data-5 img {
+  position: relative;
+  bottom: 1587px;
+  left: 632px;
+  width: 330px;
+}
+
+section.data-5 h4 {
+  position: relative;
+  bottom: 1578px;
+  left: 640px;
+}
+
+section.data-5 p {
+  position: relative;
+  width: 236px;
+  top: -1582px;
+  left: 653px;
+  font-size: 19px;
+}
+
+section.data-5 a {
+  position: relative;
+  bottom: 1572px;
+  left: 689px;
+  color: deeppink;
+}
+
+section.data-6 {
+  position: relative;
+  bottom: 1723px;
+}
+
+section.data-6 img {
+  position: relative;
+  bottom: 1825px;
+  left: 1163px;
+  width: 330px;
+}
+
+section.data-6 h4 {
+  position: relative;
+  bottom: 1813px;
+  left: 1185px;
+}
+
+section.data-6 p {
+  position: relative;
+  top: -1815px;
+  width: 253px;
+  left: 1205px;
+  font-size: 19px;
+}
+
+section.data-6 a {
+  position: relative;
+  bottom: 1807px;
+  left: 1226px;
+  color: deeppink;
+}
+
+div.newimg-1 {
+  position: relative;
+  bottom: 1834px;
+  left: 66px;
+}
+
+section.sec-banner img {
+  position: relative;
+  bottom: 1602px;
+  height: 500px;
+  left: 60px;
+}
+
+section.sec-banner p {
+  position: relative;
+  font-size: 24px;
+  width: 575px;
+  top: -1901px;
+  left: 109px;
+  color: white;
+  padding: 63px;
+  background: black;
+  border-style: inset;
+  padding-bottom: 100px;
+}
+
+button.watch {
+  position: relative;
+  top: -2006px;
+  left: 172px;
+  height: 48px;
+  width: 235px;
+  background-color: royalblue;
+  font-size: 17px;
+  font-family: system-ui;
+}
+
+section.sec-banner h4 {
+  position: relative;
+  bottom: 1994px;
+  left: 442px;
+  color: darkgrey;
+}
+
+section.sec-banner a {
+  position: relative;
+  bottom: 2037px;
+  left: 419px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: cadetblue;
+}
+
+section.img-one {
+  position: relative;
+  bottom: 2532px;
+  left: 97px;
+  z-index: 2;
+}
+
+section.img-one img {
+  position: relative;
+  width: 54px;
+  bottom: 1187px;
+  left: 109px;
+  z-index: 2;
+}
+
+section.img-one a {
+  position: relative;
+  font-size: 20px;
+  left: 70px;
+  bottom: 1144px;
+  z-index: 2;
+  color: whitesmoke;
+}
+
+section.img-one p {
+  position: relative;
+  width: 283px;
+  top: -1140px;
+  left: 125px;
+  font-size: 17px;
+  z-index: 2;
+  color: cornsilk;
+}
+
+section.background {
+  background: #203557;
+  padding: 62px;
+
+  position: absolute;
+  width: 271px;
+  left: 178px;
+  height: 180px;
+  top: 5560px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+section.img-two {
+  position: relative;
+  bottom: 2435px;
+  left: 82px;
+}
+
+section.img-two p {
+  position: relative;
+
+  width: 300px;
+  top: -1373px;
+  left: 599px;
+  z-index: 2;
+  color: beige;
+  font-size: 18px;
+}
+
+section.img-two img {
+  position: relative;
+  width: 54px;
+  bottom: 1420px;
+  left: 585px;
+  z-index: 2;
+}
+
+section.img-two a {
+  position: relative;
+  bottom: 1380px;
+  left: 545px;
+  font-size: 20px;
+  color: cornsilk;
+  z-index: 2;
+}
+
+section.background-2 {
+  background: black;
+  padding: 62px;
+
+  position: absolute;
+  width: 271px;
+  left: 632px;
+  height: 180px;
+  top: 5560px;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+section.img-three {
+  position: relative;
+  bottom: 2390px;
+  left: 30px;
+}
+
+section.img-three img {
+  position: relative;
+  width: 40px;
+  bottom: 1608px;
+  left: 1084px;
+  z-index: 2;
+}
+
+section.img-three a {
+  position: relative;
+  bottom: 1563px;
+  left: 1046px;
+  font-size: 20px;
+  z-index: 2;
+  color: cornsilk;
+}
+section.img-three p {
+  position: relative;
+  width: 270px;
+  top: -1561px;
+  left: 1096px;
+  font-size: 18px;
+  z-index: 2;
+  color: whitesmoke;
+}
+
+section.background-3 {
+  position: relative;
+  background: #0062ad;
+  padding: 62px;
+  width: 271px;
+  left: 1081px;
+  height: 139px;
+  bottom: 4212px;
+  border-radius: 10px;
+}
+
+section.footer-background {
+  position: relative;
+  background: ghostwhite;
+  padding: 6px;
+  bottom: 3807px;
+  left: -6px;
+  width: 1586px;
+  height: 830px;
+}
+
+div.footer-img {
+  position: relative;
+  bottom: 1577px;
+}
+div.footer img {
+  position: relative;
+  width: 47px;
+  bottom: 4640px;
+  left: 167px;
+}
+section.mobile-app {
+  position: relative;
+  background: powderblue;
+  width: 290px;
+  height: 57px;
+  bottom: 4596px;
+  left: 158px;
+}
+
+div.footer h5 {
+  position: relative;
+  bottom: 4701px;
+  left: 218px;
+}
+
+section.icon-1 img {
+  position: relative;
+  width: 36px;
+  left: 489px;
+  bottom: 3182px;
+}
+
+section.icon-2 img {
+  position: relative;
+  width: 35px;
+  bottom: 3217px;
+  left: 565px;
+}
+
+section.icon-3 img {
+  position: relative;
+  width: 26px;
+  bottom: 3253px;
+  left: 648px;
+}
+
+section.icon-4 img {
+  position: relative;
+  width: 56px;
+  bottom: 3297px;
+  left: 710px;
+}
+
+div.banner img {
+  position: relative;
+  width: 1500px;
+  height: 880px;
+  bottom: 210px;
+}
+
+ul.lists li {
+  font-size: 20px;
+}
+
+ul.lists-2 li {
+  font-size: 20px;
+  position: relative;
+  left: -55px;
+}
+
+ul.lists-3 li {
+  font-size: 20px;
+}
+div.footer-sub {
+  position: relative;
+  bottom: 4808px;
+  left: 48px;
+}
+
+section.sub li {
+  list-style-type: none;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+section.sub ul {
+  position: relative;
+  left: -38px;
+  bottom: -33px;
+}
+
+section.sub-1 h3 {
+  position: relative;
+  font-size: 16px;
+  top: 6px;
+}
+
+div.products {
+  position: relative;
+  bottom: 4808px;
+}
+
+section.sub-2 {
+  position: relative;
+  bottom: 391px;
+  left: 269px;
+  font-size: 19px;
+}
+
+section.sub-two {
+  position: relative;
+  bottom: 325px;
+  left: 242px;
+  list-style-type: none;
+}
+
+section.sub-two li {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+section.sub-2 h3 {
+  position: relative;
+  top: 36px;
+  left: -39px;
+  font-size: 16px;
+}
+
+div.sub-3 {
+  position: relative;
+  bottom: 5474px;
+  left: 460px;
+}
+
+section.sub-three {
+  position: relative;
+  list-style-type: none;
+  font-size: 15px;
+  top: 25px;
+}
+
+section.sub-three li {
+  margin-bottom: 30px;
+}
+
+section.head-1 h3 {
+  position: relative;
+  font-size: 17px;
+  bottom: 4px;
+}
+
+div.sub-4 {
+  position: relative;
+  bottom: 5752px;
+  left: 744px;
+}
+
+section.sub-four {
+  position: relative;
+
+  list-style-type: none;
+  top: 24px;
+  font-size: 15px;
+}
+
+section.sub-four li {
+  margin-bottom: 30px;
+}
+
+section.head-2 h3 {
+  font-size: 17px;
+}
+
+div.sub-5 {
+  position: relative;
+  bottom: 5929px;
+  left: 970px;
+}
+
+section.sub-five {
+  position: relative;
+  list-style-type: none;
+  font-size: 15px;
+  top: 20px;
+}
+
+section.sub-five li {
+  margin-bottom: 28px;
+}
+
+section.head-5 h3 {
+  font-size: 17px;
+}
+
+div.sub-6 {
+  position: relative;
+  bottom: 6397px;
+  left: 1261px;
+}
+
+section.sub-six {
+  position: relative;
+  list-style-type: none;
+  font-size: 15px;
+  top: 20px;
+}
+
+section.sub-six li {
+  margin-bottom: 30px;
+}
+
+div.footer-right-1 {
+  display: flex;
+
+  position: relative;
+  left: 545px;
+  bottom: 6194px;
+  font-size: 14px;
+}
+
+div.footer-right-2 {
+  display: flex;
+
+  position: relative;
+
+  bottom: 6206px;
+  font-size: 14px;
+  left: 1129px;
+}
+
+section.microsoft h5 {
+  position: relative;
+  bottom: 6260px;
+  left: 1455px;
+}
+
+label input {
+  position: relative;
+  bottom: 6368px;
+  left: 55px;
+  height: 45px;
+  border-color: black;
+  width: 190px;
+  font-size: 19px;
+}
+
+section.lang h4 {
+  position: relative;
+  bottom: 6351px;
+  left: 58px;
+  font-size: 18px;
+  color: gray;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  ul.lists li {
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    float: none;
+    clear: left;
+    width: 100%;
+  }
+
+  ul.lists li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .windows img {
+    margin: 0px auto 65px;
+    float: none;
+    position: relative;
+    left: 90px;
+    top: px;
+  }
+
+  form.placeholder {
+    position: relative;
+    right: 610px;
+    margin: 10px auto 0;
+    bottom: 200px;
+  }
+
+  ul.lists-2 {
+    position: relative;
+    left: 170px;
+    bottom: 140px;
+  }
+
+  ul.lists-2 li {
+    position: relative;
+    right: 1250px;
+    top: -80px;
+  }
+
+  button.free-1 {
+    position: relative;
+    left: 110px;
+    top: -310px;
+  }
+
+  ul.lists-3 li {
+    position: relative;
+    left: 180px;
+    top: -200px;
+  }
+  div.banner img {
+    width: 120%;
+    height: 670px;
+    margin-top: -80px;
+  }
+
+  section.MARK img {
+    width: 400px;
+  }
+
+  div.coloumn-1 {
+    width: 20%;
+  }
+
+  section.second img {
+    width: 400px;
+  }
+
+  h2.heading {
+    width: 30px;
+  }
+
+  div.coloumn-2 {
+    position: relative;
+    top: 500px;
+    right: 500px;
+    width: 30px;
+  }
+
+  section.sidebar {
+    position: relative;
+    top: 1790px;
+    left: 50px;
+  }
+
+  div.coloumn-3 {
+    position: relative;
+    top: 980px;
+    right: 1050px;
+  }
+
+  section.newtoazure {
+    position: relative;
+    top: 950px;
+    right: 445px;
+  }
+
+  section.h2 h2 {
+    width: 388px;
+    position: relative;
+    top: -380px;
+    left: 32px;
+  }
+
+  /* section-1 */
+
+  section.open-1 {
+    position: relative;
+    top: 875px;
+    left: -475px;
+  }
+
+  section.open-1 img {
+    width: 55px;
+  }
+
+  section.open-1 p {
+    width: 170px;
+    position: relative;
+    left: 225px;
+    top: 1820px;
+  }
+
+  section.open-1 h3 {
+    width: 30px;
+    position: relative;
+    left: 273px;
+    top: 1807px;
+  }
+
+  /* section-2 */
+
+  section.open-2 img {
+    width: 50px;
+  }
+
+  section.open-2 p {
+    position: relative;
+    top: -245px;
+    width: 180px;
+    left: 832px;
+    font-size: 20px;
+  }
+
+  section.open-2 h3 {
+    width: 20px;
+  }
+
+  section.open-2 {
+    position: relative;
+    top: 702px;
+    right: 670px;
+  }
+
+  section.open-3 {
+    position: relative;
+    top: 1000px;
+    right: 1245px;
+  }
+
+  section.open-3 img {
+    width: 55px;
+  }
+  section.open-3 p {
+    width: 170px;
+  }
+
+  section.open-3 h3 {
+    width: 170px;
+  }
+
+  section.open-4 {
+    position: relative;
+    right: 295px;
+    top: 602px;
+  }
+
+  section.open-4 img {
+    width: 55px;
+  }
+
+  section.open-4 p {
+    width: 170px;
+    position: relative;
+    left: 500px;
+  }
+
+  section.open-4 h3 {
+    width: 20px;
+    position: relative;
+    left: 530px;
+  }
+
+  /* /* section-3  */
+
+  section.open-5 {
+    position: relative;
+    top: 880px;
+    right: 870px;
+  }
+
+  section.open-5 img {
+    width: 55px;
+  }
+  section.open-5 p {
+    width: 170px;
+    position: relative;
+    left: 900px;
+  }
+
+  section.open-5 h3 {
+    position: relative;
+    bottom: 640px;
+    left: 900px;
+  }
+
+  section.open-6 {
+    position: relative;
+    top: 850px;
+    right: 1025px;
+  }
+
+  section.open-6 img {
+    width: 40px;
+  }
+
+  section.open-6 p {
+    width: 170px;
+  }
+
+  section.open-6 h3 {
+    width: 150px;
+  }
+
+  section.tools {
+    position: relative;
+    left: 1000px;
+  }
+
+  /* forza */
+
+  h3#headline {
+    position: relative;
+    bottom: 1150px;
+    width: 350px;
+    left: 60px;
+    text-decoration: underline cyan;
+  }
+
+  section.forzasec {
+    position: relative;
+    top: 1230px;
+    left: -165px;
+  }
+
+  section.img-1 img {
+    width: 40px;
+    position: relative;
+    bottom: 1050px;
+    left: 180px;
+  }
+
+  section.img-3 img {
+    width: 190px;
+    position: relative;
+    bottom: 1205px;
+    left: 240px;
+  }
+
+  section.img-2 img {
+    width: 130px;
+
+    position: relative;
+    bottom: 1140px;
+    left: 400px;
+  }
+
+  section.img-4 img {
+    width: 150px;
+    left: 200px;
+    bottom: 1180px;
+  }
+
+  section.img-5 img {
+    width: 150px;
+    position: relative;
+    left: 340px;
+    bottom: 1230px;
+  }
+
+  /* section sub box */
+
+  section.discover h3 {
+    position: relative;
+    left: 20px;
+    top: -1200px;
+  }
+
+  section.data-3 {
+    position: relative;
+    left: -1025px;
+    top: 600px;
+  }
+
+  section.data-2 {
+    position: relative;
+    left: -550px;
+    top: 300px;
+  }
+
+  section.data-1 {
+    position: relative;
+    left: -100px;
+    top: 00px;
+  }
+
+  /* section sub box 2 */
+
+  section.data-6 {
+    position: relative;
+    left: 3000px;
+  }
+
+  section.data-5 {
+    position: relative;
+    left: 2700px;
+  }
+
+  section.data-4 {
+    position: relative;
+    left: 2300px;
+  }
+
+  div.chapter-3 {
+    position: relative;
+    left: 3470px;
+    bottom: 4850px;
+  }
+
+  section.background-2 {
+    position: relative;
+    left: 2000px;
+  }
+
+  div.chapter-2 {
+    position: relative;
+    left: 1000px;
+    bottom: 10000px;
+  }
+
+  div.chapter-1 {
+    position: relative;
+    left: 2400px;
+    bottom: 9650px;
+  }
+
+  section.sec-banner {
+    position: relative;
+    left: 2350px;
+  }
+
+  section.tools img {
+    width: 400px;
+    height: 350px;
+    position: relative;
+    top: -1200px;
+    left: -994px;
+  }
+
+  section.tools h2 {
+    width: 300px;
+    top: -1230px;
+    left: -940px;
+  }
+
+  button.explore {
+    position: relative;
+    top: -1220px;
+    left: -920px;
+  }
+
+  section.footer-background {
+    position: relative;
+    top: 1000px;
+  }
+
+  label input {
+    position: relative;
+    top: 1000px;
+  }
+
+  section.lang h4 {
+    position: relative;
+    top: 800px;
+  }
+
+  div.footer-sub {
+    position: relative;
+    top: 800px;
+  }
+
+  div.products {
+    position: relative;
+    top: 800px;
+  }
+
+  div.sub-3 {
+    position: relative;
+    top: 800px;
+  }
+
+  div.sub-4 {
+    position: relative;
+    top: 800px;
+  }
+
+  div.sub-5 {
+    position: relative;
+    top: 800px;
+  }
+
+  div.sub-6 {
+    position: relative;
+    top: 800px;
+  }
+
+  div.footer-right-1 {
+    position: relative;
+    top: 800px;
+  }
+
+  div.footer-right-2 {
+    position: relative;
+    top: 800px;
+  }
+
+  section.microsoft h5 {
+    position: relative;
+    top: 800px;
+  }
+  div.footer h5 {
+    position: relative;
+    top: 800px;
+  }
+
+  div.footer img {
+    position: relative;
+    top: 2800px;
+  }
+
+  div.footer-img {
+    position: relative;
+    top: 2800px;
+  }
+
+  section.mobile-app {
+    position: relative;
+    top: 1200px;
+  }
+}

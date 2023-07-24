@@ -1,0 +1,177 @@
+body,
+ul,
+li,
+h1,
+h2,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+
+header {
+  background-color: rgb(219, 12, 12);
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+}
+
+header h1 {
+  color: white;
+  border: 8px solid white;
+
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 36px;
+}
+
+.welcome {
+  background-color: orange;
+  color: white;
+  position: absolute;
+  padding: 40px;
+  left: 0px;
+  top: 30%;
+}
+.welcome h2 {
+  font-size: 125px;
+}
+
+nav.main-nav {
+  background-color: lightcyan;
+  padding: 30px;
+  position: sticky;
+  top: 150px;
+}
+
+nav ul {
+  white-space: nowrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav li a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+nav li a.join {
+  color: rgb(255, 60, 0);
+}
+
+article p {
+  line-height: 3em;
+  color: rgb(66, 105, 7);
+}
+
+.images {
+  text-align: center;
+  margin: 80px 0;
+  white-space: nowrap;
+}
+
+.images li {
+  display: inline-block;
+  width: 40%;
+  margin: 20px 5%;
+}
+
+.images li img {
+  width: 100%;
+}
+
+.join {
+  background: whitesmoke;
+  text-align: center;
+  padding: 60px 20px;
+  color: grey;
+}
+
+.join h2 {
+  font-size: 36px;
+}
+form input {
+  margin: 20px 0;
+  padding: 10px 20px;
+  font-size: 24px;
+  border-radius: 28px;
+  border: 4px solid white;
+}
+
+footer {
+  background: orangered;
+  color: antiquewhite;
+  padding: 10px;
+  text-align: center;
+}
+
+main-nav li a:hover {
+  text-decoration: underline;
+}
+
+.images li:hover {
+  position: relative;
+  top: -4px;
+}
+
+form input:focus {
+  border: 4px dashed gray;
+  outline: none;
+}
+
+form input:valid {
+  border: 4px solid yellowgreen;
+}
+
+nav li:first-child {
+  border: 3px solid red;
+}
+
+article p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* resposive styles */
+
+@media screen and (max-width: 700px) {
+}
+
+.welcome {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+}
+
+.welcome br {
+  display: none;
+}
+.welcome h2 {
+  font-size: 25px;
+}
+
+.images li {
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+}

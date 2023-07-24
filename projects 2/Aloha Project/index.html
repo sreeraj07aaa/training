@@ -1,0 +1,285 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aloha apparel co.</title>
+
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="fonts/fonts.css" />
+
+    <!--Font Awesome Import(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+
+    <!-- Flickity -->
+    <script src="js/flickity/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="js/flickity/flickity.css" media="screen" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="57*57"
+      href="Favicon/apple-icon-57x57.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="60*60"
+      href="Favicon/apple-icon-60x60.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="72*72"
+      href="Favicon/apple-icon-72x72.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="76*76"
+      href="Favicon/apple-icon-76x76.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="114*114"
+      href="Favicon/apple-icon-114x114.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="120*120"
+      href="Favicon/apple-icon-120x120.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="144*144"
+      href="Favicon/apple-icon-144x144.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="152*152"
+      href="Favicon/apple-icon-152x152.png"
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180*180"
+      href="Favicon/apple-icon-180x180.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32*32"
+      href="Favicon/favicon-32x32.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96*96"
+      href="Favicon/favicon-96x96.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16*16"
+      href="Favicon/favicon-16x16.png"
+    />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <a class="screen-reader-text" href="#main"> skip to content</a>
+    <header class="container">
+      <img class="logo" src="imgs/aloha-logo.svg" alt="aloha logo" />
+      <div class="cart-icon">
+        <img class="cart-icon-image" src="imgs/cart-icon.svg" alt="cart icon" />
+
+        <div class="cart-notification"></div>
+      </div>
+      <hr />
+
+      <nav class="nav-section">
+        <ul class="nav-button">
+          <li><a href="#about">About</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#update">Upadtes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="fixed-heading-gap"></div>
+    <div class="banner container">
+      <div class="banner-text">
+        <div class="banner-title">New collection</div>
+        <div class="banner-subtitle">Spring/Summer 2016</div>
+      </div>
+    </div>
+
+    <section id="about" class="about">
+      <h1>Hand-crafted styles</h1>
+
+      <p>
+        Aloga Apparel Co. sells only the finest ready-to-travel clothing. Browse
+        our current selection of products or sign-up for updates below.
+      </p>
+    </section>
+
+    <div id="shop" id="main" class="categories grid-container">
+      <div class="grid-cell">
+        <img src="imgs/mens-category.jpg" alt="mens" />
+        <p class="category-title">Men's</p>
+      </div>
+
+      <div class="grid-cell">
+        <img src="imgs/trends-category.jpg" alt="trends" />
+        <p class="category-title">Trends</p>
+      </div>
+
+      <div class="grid-cell">
+        <img src="imgs/glasses-category.jpg" alt="glasses" />
+        <p class="category-title">Glasses</p>
+      </div>
+
+      <div class="grid-cell">
+        <img src="imgs/sale-category.jpg" alt="sale" />
+        <p class="category-title">Sale</p>
+      </div>
+
+      <div class="grid-cell">
+        <img src="imgs/bags-category.jpg" alt="bags" />
+        <p class="category-title">Bags</p>
+      </div>
+
+      <div class="grid-cell">
+        <img src="imgs/womens-category.jpg" alt="women's" />
+        <p class="category-title">Womens's</p>
+      </div>
+    </div>
+
+    <section id="Featured" class="carousel-container">
+      <h1>Most Loved Products</h1>
+      <div class="main-carousel"></div>
+    </section>
+
+    <section class="subscribe">
+      <div id="update" class="subscribe-elements">
+        <h1>Sign up for candidates</h1>
+        <p class="container-small">
+          Stay updated on our latest product releases, be first to find out
+          about upcoming sales, and get free style tips from our blog.
+          unsubcribe at any time.
+        </p>
+        <div>
+          <form class="subscribe-button-container">
+            <input
+              id="email"
+              class="enter-email-box"
+              type="email"
+              placeholder="your email"
+              name="mail"
+              required
+            />
+
+            <input
+              class="subscribe-button"
+              type="submit"
+              value="subscribe"
+              onclick="validateEmail(); return false"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!--...........___-- Footer section........____--- -->
+
+    <footer>
+      <div class="footer-halves">
+        <div id="contact-information" class="contact-information">
+          <div class="footer-section">
+            <p>
+              @2016 aloha apparel co.<br />
+              powered by HTML and css.
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <p>
+              604 -604 6040
+
+              <a
+                href="mailto:infor@alohaapparel.com? Subject=Hello"
+                target="-top"
+              >
+                Info@alohaapparel.com</a
+              >
+            </p>
+          </div>
+
+          <div class="footer-section">
+            <address>
+              1490 W Broadway <br />
+              Vancouver, BC , Canada
+            </address>
+          </div>
+        </div>
+
+        <div class="social-media footer-section">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/ciaranfontein">
+                <i class="fab fa-facebook-f"></i>
+                <div class="icon-label">Facebook</div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/Gaylord-cat">
+                <i class="fab fa-twitter"></i>
+                <div class="icon-label">Twitter</div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/badonkadoo">
+                <i class="fab fa-instagram"></i>
+                <div class="icon-label">instagram</div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.pinterest.ca/">
+                <i class="fab fa-pinterest"></i>
+                <div class="icon-label">pinterest</div>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://en.wikipedia.org/wiki/google%2B">
+                <i class="fab fa-google-plus-g"></i>
+                <div class="icon-label">google+</div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </body>
+</html>

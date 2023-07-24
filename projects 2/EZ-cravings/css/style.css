@@ -1,0 +1,246 @@
+/* . {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+html {
+  background-color: aliceblue;
+  color: #5d5d5d;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility;
+}
+
+.row {
+  max-width: 1140px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+section {
+  padding: 60px 0px;
+}
+
+/* ____--______Header______-- ||| */
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(cravings.jpg);
+  padding: 0;
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  padding-bottom: 10px;
+  text-align: center;
+
+  text-transform: capitalize;
+  word-spacing: 3px;
+}
+
+h1 {
+  padding-top: 200px;
+
+  margin-top: 10px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100%;
+
+  background-color: #e67e22;
+  content: "";
+}
+
+.craving-text {
+  padding-top: 600px;
+  font-weight: 400;
+  width: 750px;
+  font-size: 18px;
+
+  padding-left: 850px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.ezlogo {
+  float: left;
+  padding-left: 200px;
+  image-resolution: from-image;
+  width: 230px;
+  height: auto;
+  margin: auto;
+  padding-bottom: 10px;
+  height: auto;
+}
+
+.main-nav {
+  display: inline;
+  margin-left: 30px;
+  float: right;
+  list-style: disc;
+  padding: 10px;
+  margin-top: 10px;
+  padding-right: 100px;
+}
+
+.main-nav li {
+  padding: 10px;
+  color: #e67e22;
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: #e67e22;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.main-nav li a:hover {
+  padding: 10px;
+  color: #e67e22;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 30px;
+}
+
+ul li.main-nav.hover {
+  color: #e67e22;
+  font-style: italic;
+}
+
+.longpara {
+  line-height: 145%;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 20px;
+  font-style: italic;
+}
+
+/* // Buttons //  */
+
+.btn {
+  display: inline-block;
+  padding: 10px 50px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 200px;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #1ef06e;
+  font-size: 25px;
+}
+
+.btn-full {
+  background-color: plum;
+  margin-left: 130px;
+}
+
+.btn-ghost {
+  border: 1px solid plum;
+  background-color: plum;
+}
+
+/* Meals showcase  */
+
+.section-meals {
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: flex;
+  float: right;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.meal-photo {
+  width: 90%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.meal-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  opacity: 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+}
+
+.section-steps {
+  background-color: #f4f4f4;
+}
+
+.step-box {
+  margin-top: 30px;
+}
+
+.step-box:first-child {
+  text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.step-box:last-child {
+  text-align: left;
+  padding-left: 0%;
+  margin-top: 0px;
+}
+
+.app-screen {
+  width: 40%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step :last-of-type {
+  margin-bottom: 80px;
+}
+
+.works-step div {
+  color: #e67e22;
+  font-size: 100%;
+  height: 54px;
+  width: 54px;
+
+  display: flex;
+  text-align: center;
+  margin-right: 24px;
+  float: left;
+  padding: 5px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
+}
+
+.btn-app img {
+  height: 60px;
+  width: auto;
+  margin-right: 10px;
+}

@@ -1,0 +1,42 @@
+/* .error {
+    color: fuchsia;
+}
+
+.process{
+    color: springgreen;
+}
+p.process{
+    color: mediumspringgreen;
+}
+
+p.process.feedback{
+    border: 1px dashed springgreen; 
+}
+
+#content{
+    background-color: grey;
+    padding: 20px; 
+}
+
+div[class]{
+
+    background-color: lime;
+}    */
+
+div{
+    color:rgb(221, 12, 117);
+    border: 1px solid grey; 
+    margin :40px ;
+    font-weight: bold; 
+
+}
+
+p{
+
+    border: inherit; 
+    margin: inherit; 
+}
+
+p{
+    color: orange; 
+}

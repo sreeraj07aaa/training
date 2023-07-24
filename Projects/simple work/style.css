@@ -1,0 +1,56 @@
+h1{
+    font-size: 74px;
+    color: yellowgreen;
+    text-decoration: underline;
+    text-align: center;
+    padding: 40px;
+    background-color: lightgray;
+    line-height: 40px;
+    border-style: solid; 
+}
+
+.embed{
+    background-color: magenta;
+    font-weight:bold; 
+
+}
+
+.website {
+    position: relative;
+
+}
+
+.website {
+   width:100%;  
+}
+
+form input{
+    margin: 20px 0;
+    padding:10px 20px;
+    font-size: 24px;
+    border: 4px solid rgba(255, 255, 255, 0.322);
+    color: aqua;
+    text-align: center;
+
+}
+
+form input:focus {
+    border: 4px dashed gray;
+    outline: none;
+
+}
+
+form input:valid{
+    border: 4px solid yellowgreen;
+
+}
+
+div li {
+    font-size: 24px;
+
+}
+.submitt{
+    text-align: center;
+    
+}
+    
