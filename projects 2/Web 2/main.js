@@ -56,7 +56,6 @@ const highlightMenu = () => {
 
         elem.classList.remove('highlight');
     }
-
 };
 
 
